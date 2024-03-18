@@ -1,0 +1,263 @@
+.title-bg{
+    background-color: #e4f9f5;
+    width: 100%;
+    height: 100vh;
+}
+
+.hello{
+    color: blueviolet;
+    font-style: italic;
+    font-family: "Sacramento", cursive;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+h3{
+    color: black;
+}
+
+.name{
+    color: blueviolet;
+    font-family: sans-serif;
+    padding-left: 100px;
+    font-size: 60px;
+}   
+
+.mountain{
+    position: absolute;
+    left: 420px;
+    bottom: .5px;
+    padding-top: 150px;
+}
+
+.about{
+    background-color: #f9f5e4;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+}
+
+.skills{
+    background-color: #e4f9f5;
+}
+
+.projects{
+    padding-top: 50px;
+    background-color: #f9f5e4;
+}
+
+.abt{
+    font-size: larger;
+}   
+
+.gif{
+    position: absolute;
+    left: 830px;
+    top: 150px;
+    width: 600px;
+    height: 400px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1400px){
+    .featurette{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .featurette2{
+        display: grid;
+        grid-template-columns: auto 100%;
+        grid-template-rows: auto auto;
+        gap: 10px;
+    }
+
+    .hello{
+        /* display: inline; */
+        padding-left: 10px;
+        padding-top: 100px;
+    }
+
+    .name{
+        padding-left: 10px;
+    }
+
+    .mountain{
+        position: absolute;
+        left: 250px;
+        bottom: .5px;
+        padding-top: 150px;
+    }
+
+    .gif{
+        position: absolute;
+        left: 680px;
+        width: 500px;
+        height: 350px;
+    }
+
+}
+
+@media (max-width: 1201px){
+
+    .name{
+        font-size: 50px;
+    }
+
+    .hello{
+        font-size: 80px;
+    }
+
+    .mountain{
+        position: absolute;
+        left: 200px;
+    }
+    .gif{
+        position: absolute;
+        left: 600px;
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 992px){
+    .hello{
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 48px;
+    }
+
+    .name{
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    .mountain{
+        display: block;
+        position: absolute;
+        padding-bottom: 280px;
+        left: 135px;
+        width: 450px;
+    }
+
+    .title-bg{
+        height: 330px;
+    }
+
+    .featurette{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    .featurette2{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        gap: 10px;
+    }
+
+    .txt{
+        grid-area: 1 / 1 / 2 / -1;
+    }
+
+    .gif{
+        position: absolute;
+        left: 450px;
+        top: 50px;
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 770px){
+    .mountain{
+        display: block;
+        position: relative;
+        /* padding-bottom: 40px; */
+        bottom: 180px;
+        left: 10px;
+        width: 400px;
+    }   
+
+    .pic2{
+        width: 100px;
+        height: 100px;
+    }
+
+    .gif{
+        left: 400px;
+        top: 80px;
+        width: 200px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 651px){
+    .gif{
+        left: 350px;
+    }
+}
+
+@media (max-width: 539px){
+    .proj1{
+        width: 539px;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 539px){
+    .proj1{
+        width: 300px;
+        height: 200px;
+    }
+
+    .name{
+        text-align: left;
+    }
+
+    .hello{
+        text-align: left;
+    }
+
+    .proj2{
+        height: 200px;
+        width: 170px;
+        /* padding-left: 70px; */
+    }
+
+    body{
+        text-align: center;
+    }
+
+    .skills{
+        margin-bottom: 10;
+    }
+
+    .mountain{
+        position: relative;
+        width: 280px;
+        left: -13px;
+        bottom: 163px;
+        height: 650px;
+    }
+
+    .abt{
+        font-size: 17px;
+    }
+
+    .gif{
+        left: 250px;
+    }
+}
+
+@media (max-width: 423px){
+    .gif{
+        left: 150px;
+    }
+
+    .mountain{
+        width: 250px;
+    }
+}
