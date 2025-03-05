@@ -137,7 +137,7 @@ h3{
     .mountain{
         display: block;
         position: absolute;
-        padding-bottom: 280px;
+        padding-bottom: 400px;
         left: 135px;
         width: 450px;
     }
@@ -207,7 +207,7 @@ h3{
     }
 }
 
-@media (min-width: 330px) and (max-width: 539px){
+@media (min-width: 337px) and (max-width: 539px){
     .proj1{
         width: 300px;
         height: 200px;
@@ -238,9 +238,9 @@ h3{
     .mountain{
         position: relative;
         width: 280px;
-        left: -13px;
-        bottom: 163px;
-        height: 650px;
+        left: 13px;
+        bottom: 140px;
+        height: 750px;
     }
 
     .abt{
